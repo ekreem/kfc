@@ -12,7 +12,7 @@ export default function Hero() {
             <ProtectedAction><span className="btn-outline !border-white !text-white hover:!bg-white hover:!text-brand">İndi sifariş et</span></ProtectedAction>
           </div>
         </div>
-        <img src="https://picsum.photos/seed/friedchicken/700/480" alt="Qızardılmış toyuq" className="rounded-3xl shadow-2xl" />
+        <img src="https://as1.ftcdn.net/v2/jpg/05/41/62/96/1000_F_541629636_RlfZtQI6uIOW9Uj52x6HpczOlFNVps4L.jpg" alt="Qızardılmış toyuq" className="rounded-3xl shadow-2xl" />
       </div>
     </section>
   );

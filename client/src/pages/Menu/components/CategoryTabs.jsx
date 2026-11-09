@@ -1,4 +1,4 @@
-export const CATEGORIES = ['Burger', 'Toyuq', 'Combo', 'Qəlyanaltı', 'İçki', 'Desert'];
+export const CATEGORIES = ['Sendviçlər','Burger', 'Qəlyanaltı' ,'Toyuq', 'Souslar','Desert','Combo','Basketlər', 'İçki' ];
 export default function CategoryTabs({ active, onChange }) {
   const tab = (c, label) => (
     <button key={label} onClick={() => onChange(c)} className={`whitespace-nowrap rounded-full px-5 py-2 font-bold transition ${active === c ? 'bg-brand text-white' : 'bg-cream hover:bg-orange-100'}`}>{label}</button>

@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Login from './pages/Auth/Login.jsx';
 import Register from './pages/Auth/Register.jsx';
 import Admin from './pages/Admin';
+import Cart from './pages/Cart';
 export default function App() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/admin" element={<ProtectedRoute adminOnly><Admin /></ProtectedRoute>} />
+          <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
         </Routes>
       </main>
       <Footer />
